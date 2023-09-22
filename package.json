@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,8 +12,6 @@
     "web-vitals": "^2.1.4",
     "homepage": "https://gillianroberts1.github.io/portfolio"
   },
-
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
