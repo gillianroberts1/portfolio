@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import PortfolioContainer from './containers/PortfolioContainer';
 
 function App() {
   return (
-    <h1>Welcome to my Portfolio</h1>
+    <>
+    <h1>Site under construction - check back soon!</h1>
+    <PortfolioContainer/>
+    </>
   );
 }
 
