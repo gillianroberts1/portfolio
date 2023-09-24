@@ -1,12 +1,12 @@
-import './App.css';
-import PortfolioContainer from './containers/PortfolioContainer';
+import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <>
-    <h1>Site under construction - check back soon!</h1>
-    <PortfolioContainer/>
-    </>
+    <div className="App">
+      
+      <Main />
+    </div>
   );
 }
 
