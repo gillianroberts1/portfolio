@@ -25,13 +25,18 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     color: #fff !important;
     letter-spacing: 0.8px;
     padding: 0 25px;
-    font-size: 18px;
+    font-size: 20px;
     opacity: 0.75;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link:hover {
+    color: red;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
+    
 }
 span.navbar-text {
     display: flex;
@@ -100,7 +105,7 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #95B4B5;
 }
 .navbar-text button:hover::before {
 	content: "";

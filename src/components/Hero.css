@@ -1,6 +1,7 @@
 img.hero-img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
+    margin-left: 75px;
 }
 
 .hero {
@@ -67,6 +68,11 @@ img.hero-img {
     100% {
         transform: translateY(-20px);
     }
+
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
 }
 
 
