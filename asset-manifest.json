@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.02db35d0.js",
+    "main.css": "/portfolio/static/css/main.af3c92c6.css",
+    "main.js": "/portfolio/static/js/main.7925025c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/header-img2.png": "/portfolio/static/media/header-img2.41138979dc46f4b1ccbf.png",
+    "static/media/background1.jpg": "/portfolio/static/media/background1.a17b51335d9e951c1067.jpg",
+    "static/media/gillianlogo.png": "/portfolio/static/media/gillianlogo.74ea567e1a9ff3a184e9.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/nav-icon3.svg": "/portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.02db35d0.js.map": "/portfolio/static/js/main.02db35d0.js.map",
+    "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.af3c92c6.css.map": "/portfolio/static/css/main.af3c92c6.css.map",
+    "main.7925025c.js.map": "/portfolio/static/js/main.7925025c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.02db35d0.js"
+    "static/css/main.af3c92c6.css",
+    "static/js/main.7925025c.js"
   ]
 }
