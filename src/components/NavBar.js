@@ -7,7 +7,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import logo from "../assets/img/gillianlogo.png";
 import { BrowserRouter as Router } from "react-router-dom";
-import './NavBar.css'
+import "./NavBar.css";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -39,7 +39,7 @@ export const NavBar = () => {
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar=toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -85,7 +85,10 @@ export const NavBar = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <button className="vvd" onClick={() => console.log("connect")}>
+              <button
+                className="connect"
+                onClick={() => console.log("connect")}
+              >
                 <span>Let'Connect</span>
               </button>
             </span>
