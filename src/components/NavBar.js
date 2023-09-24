@@ -6,6 +6,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import logo from "../assets/img/gillianlogo.png";
+import hoverLogo from "../assets/img/gillianlogowave.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./NavBar.css";
 
@@ -36,7 +37,10 @@ export const NavBar = () => {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" />
+            <div className="logo-container">
+              <img src={logo} alt="Logo" className="default" />
+              <img src={hoverLogo} alt="Logo" className="wave" />
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

@@ -18,6 +18,23 @@ nav.navbar a.navbar-brand {
   padding-top: 20px;
 }
 
+.logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.wave {
+  display: none;
+}
+
+.logo-container:hover .wave {
+  display: block;
+}
+
+.logo-container:hover .default {
+  display: none;
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
