@@ -56,10 +56,12 @@ export const Hero = () => {
         <Row className="align-items-centre">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
+            <div className="text-box">
             <h1>
               Hi I'm Gillian,
               <span className="wrap"> {text}</span>
             </h1>
+            </div>
             <p>
               About my current situation, CodeCLan 16 week Bootcamp, and all
               about what Im learning{" "}

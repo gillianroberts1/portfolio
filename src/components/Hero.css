@@ -29,6 +29,10 @@ img.hero-img {
   display: inline-block;
 }
 
+.text-box {
+    height: 100px;
+}
+
 .hero button {
   color: #fff;
   font-weight: 700;
