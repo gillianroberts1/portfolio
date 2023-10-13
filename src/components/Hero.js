@@ -63,10 +63,9 @@ export const Hero = () => {
             </h1>
             </div>
             <p>
-              About my current situation, CodeCLan 16 week Bootcamp, and all
-              about what Im learning{" "}
+            Welcome to my portfolio website! I'm here to share my career change journey and how the CodeClan course has been a game-changer for me. Through this experience, I've been picking up new skills and diving into the world of coding. I'm excited to show you what I've been working on, what I've learned, and where I hope to go from here!{" "}
             </p>
-            <p>When I qualify and what im looking to do</p>
+            {/* <p>When I qualify and what im looking to do</p> */}
             <button onClick={() => console.log("connect")}>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
