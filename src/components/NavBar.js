@@ -9,6 +9,7 @@ import logo from "../assets/img/gillianlogo.png";
 import hoverLogo from "../assets/img/gillianlogowave.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./NavBar.css";
+import { sendEmail } from "../helpers";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -91,7 +92,7 @@ export const NavBar = () => {
               </div>
               <button
                 className="connect"
-                onClick={() => console.log("connect")}
+                onClick={sendEmail}
               >
                 <span>Let'Connect</span>
               </button>
