@@ -4,8 +4,6 @@ img.hero-img {
   margin-left: 122px;
 }
 
-
-
 .hero {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -32,10 +30,38 @@ img.hero-img {
 }
 
 .text-box {
-    height: 100px;
+  height: 100px;
 }
 
-.hero button {
+.expand-button {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+  color: #fff;
+
+}
+
+.journey-box {
+  width: 1200px;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0px;
+  margin: unset;
+}
+
+.expandable-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+}
+
+.lets-connect-button {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -82,4 +108,20 @@ img.hero-img {
 
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/*  expandable journey section */
+
+.journey-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.journey-container p {
+  margin-bottom: 0px;
+}
+
+.expand-button {
+  margin-top: 0px;
 }
