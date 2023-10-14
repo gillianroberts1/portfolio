@@ -13,7 +13,7 @@ img.hero-img {
   background-repeat: no-repeat;
 }
 
-.hero .tagline {
+.tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -44,8 +44,31 @@ img.hero-img {
   color: #fff;
 }
 
+.journey-title {
+  margin: 0;
+}
+
 .journey-box {
-  width: 1200px;
+  background: #aa9db590;
+  border-radius: 67px;
+  width: 1296px;
+  text-align: start;
+  display: block;
+  justify-content: ;
+
+}
+
+.journey-box p {
+  font-size: 16px;
+}
+
+.journey-card {
+  padding: 40px;
+}
+
+.journey-closing {
+  /* text-align: center; */
+  font-weight: bold;
 }
 
 ol,
@@ -60,6 +83,23 @@ ul {
   padding: 10px;
   margin: 10px;
   position: absolute;
+}
+
+/*  expandable header */
+
+.journey-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* .journey-container p {
+  margin-bottom: 0px;
+} */
+
+.expand-button {
+  margin-top: 0px;
 }
 
 @media (max-width: 767px) {
@@ -79,7 +119,7 @@ ul {
   align-items: center;
 }
 
-.hero p {
+p {
   color: #fff;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -118,18 +158,4 @@ ul {
   border-right: 0.08em solid #666;
 }
 
-/*  expandable journey section */
 
-.journey-container {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.journey-container p {
-  margin-bottom: 0px;
-}
-
-.expand-button {
-  margin-top: 0px;
-}

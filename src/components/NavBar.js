@@ -6,6 +6,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-mark.svg";
 import navIcon3 from "../assets/img/resume-9864.svg";
 import logo from "../assets/img/gillianlogo.png";
+import cv from "../assets/img/cv.pdf"
 import hoverLogo from "../assets/img/gillianlogowave.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./NavBar.css";
@@ -86,8 +87,8 @@ export const NavBar = () => {
                 <a href="https://github.com/gillianroberts1" target="_blank" rel="noreferrer">
                   <img src={navIcon2} alt="Github" />
                 </a>
-                <a href="#" >
-                  <img src={navIcon3} alt="" />
+                <a href={cv}  target="_blank" rel="noreferrer">
+                  <img src={navIcon3} alt="cv" />
                 </a>
               </div>
               <button

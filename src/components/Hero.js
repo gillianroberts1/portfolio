@@ -85,16 +85,16 @@ export const Hero = () => {
               </p>
             </div>
             <div className="journey-container">
-              <p> My Journey</p>
+              <p className="journey-title"> My Journey so far...</p>
               <button className="expand-button" onClick={toggleJourneyExpanded}>
                 {isJourneyExpanded ? "-" : "+"}
               </button>
             </div>
-            <hr></hr>
+            {/* <hr></hr> */}
 
             {isJourneyExpanded && (
-              <div className="journey-card">
-                <div className="journey-box">
+              <div className="journey-box">
+                <div className="journey-card">
                   <p className="journey-text">
                     My journey began with a departure from school, followed by
                     enrollment in college to explore the realm of computing
@@ -114,7 +114,6 @@ export const Hero = () => {
                     proficient as possible.
                   </p>
                   <p className="journey-text">
-                    {" "}
                     For the past two decades, I've been deeply involved in the
                     field of selling new homes. I began as a Salesperson, worked
                     my way up to become a Sales Manager, and eventually achieved
@@ -149,18 +148,21 @@ export const Hero = () => {
                   </p>
 
                   <p className="journey-text">
-                    Once again, my determination was put to the test. But not
+                    Once again, my grit and determination was put to the test. But not
                     for a moment did I consider giving up.
                   </p>
 
-                  <p>
+                  <p className="journey-text">
                     As I near the end of the course, armed with personal and
                     group projects under my belt, and a whole new toolkit, I am
-                    now excited to embark on a new chapter. I'm actively seeking
-                    Junior Software Developer roles where I can apply my
-                    newfound skills and unwavering commitment.
+                    now excited to embark on a new chapter.
                   </p>
-                  <p className="journey-text">Graduating November 2023</p>
+                  <p className="journey-closing">
+                    I'm actively seeking Junior Software Developer roles where I
+                    can apply my newfound skills and unwavering commitment.
+                  </p>
+
+                  <p className="journey-closing">Graduating November 2023</p>
                 </div>
               </div>
             )}
