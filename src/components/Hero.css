@@ -33,6 +33,7 @@ img.hero-img {
   height: 100px;
 }
 
+/* journey styling */
 .expand-button {
   background-color: transparent;
   border: none;
@@ -41,14 +42,14 @@ img.hero-img {
   outline: none;
   margin-right: 10px;
   color: #fff;
-
 }
 
 .journey-box {
   width: 1200px;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
   padding: 0px;
   margin: unset;
@@ -61,6 +62,13 @@ ol, ul {
   position: absolute;
 }
 
+@media (max-width: 767px) {
+  .journey-box {
+    width: 100%;
+  }
+}
+
+/* connect */
 .lets-connect-button {
   color: #fff;
   font-weight: 700;

@@ -62,7 +62,6 @@ export const Hero = () => {
   //   setMoreExpanded(!isMoreExpanded);
   // };
 
-  const journeyStory = "lorem ipum";
   return (
     <section className="hero" id="home">
       <Container>
@@ -106,7 +105,7 @@ export const Hero = () => {
                     assisting individuals in finding their dream homes.
                   </p>
 
-                  <p>
+                  <p className="journey-text">
                     Throughout this journey, I've been recognised for my
                     unwavering determination and my commitment to giving my all.
                     In any field, within time, I've consistently found myself
@@ -114,7 +113,7 @@ export const Hero = () => {
                     inherent ability to retain knowledge and become as
                     proficient as possible.
                   </p>
-                  <p>
+                  <p className="journey-text">
                     {" "}
                     For the past two decades, I've been deeply involved in the
                     field of selling new homes. I began as a Salesperson, worked
@@ -122,12 +121,12 @@ export const Hero = () => {
                     the position of Head of Sales. It's safe to say I've made
                     significant progress in my career.
                   </p>
-                  <p>
+                  <p className="journey-text">
                     Yet, the allure of a career in the tech industry always
                     remained elusive...
                   </p>
 
-                  <p>
+                  <p className="journey-text">
                     In July 2023, I took a leap of faith and enrolled in a
                     16-week Professional Software Development bootcamp with
                     CodeClan. I thrived in this new environment, embracing every
@@ -136,7 +135,7 @@ export const Hero = () => {
                     true calling.
                   </p>
 
-                  <p>
+                  <p className="journey-text">
                     Then came an unexpected twist. In week 2 of the course,
                     CodeClan faced liquidation, and it was announced that our
                     coursework would cease immediately. However, thanks to our
@@ -149,7 +148,7 @@ export const Hero = () => {
                     leadership of CodeBase.
                   </p>
 
-                  <p>
+                  <p className="journey-text">
                     Once again, my determination was put to the test. But not
                     for a moment did I consider giving up.
                   </p>
@@ -161,7 +160,7 @@ export const Hero = () => {
                     Junior Software Developer roles where I can apply my
                     newfound skills and unwavering commitment.
                   </p>
-                  <p>Graduating November 2023</p>
+                  <p className="journey-text">Graduating November 2023</p>
                 </div>
               </div>
             )}
