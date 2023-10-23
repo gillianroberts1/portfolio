@@ -5,6 +5,8 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img2.png";
 import "./Hero.css";
 import { sendEmail } from "../helpers";
+import "animate.css";
+
 
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -148,8 +150,8 @@ export const Hero = () => {
                   </p>
 
                   <p className="journey-text">
-                    Once again, my grit and determination was put to the test. But not
-                    for a moment did I consider giving up.
+                    Once again, my grit and determination was put to the test.
+                    But not for a moment did I consider giving up.
                   </p>
 
                   <p className="journey-text">
@@ -171,7 +173,12 @@ export const Hero = () => {
               Let's Connect <ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col
+            xs={12}
+            md={6}
+            xl={5}
+            className="animate__animated animate__zoomInUp"
+          >
             <img className="hero-img" src={headerImg} alt="Hero Image" />
           </Col>
         </Row>
