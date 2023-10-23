@@ -1,11 +1,8 @@
 .projects {
-  /* padding: 80px 0; */
   position: relative;
-  /* background-color: black; */
 }
 .projects h2 {
   font-size: 35px;
-  font-weight: 700;
   text-align: center;
 }
 .projects p {

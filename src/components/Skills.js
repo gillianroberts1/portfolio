@@ -7,7 +7,6 @@ import "./Skills.css";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -32,63 +31,97 @@ export const Skills = () => {
           <Col>
             <div className="skill-box">
               <h2>Skills</h2>
-              
+
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="skill-slider"
               >
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="image of css"
+                  />
                   <h5>CSS</h5>
-                </div><div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Image" />
+                </div>
+                <div className="item">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="image of html"
+                  />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="Image of react"
+                  />
                   <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="Image of javascript"
+                  />
                   <h5>JavaScript </h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"  alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Image of java"
+                  />
                   <h5>Java</h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                    alt="Image of spring"
+                  />
                   <h5>Spring</h5>
                 </div>
                 <div className="item">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Image of python"
+                  />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    alt="Image of postgresql"
+                  />
                   <h5>PostgreSQL</h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Image of express"
+                  />
                   <h5>Express</h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    alt="Image of nodejs"
+                  />
                   <h5>Nodejs</h5>
                 </div>
 
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="Image of mongodb"
+                  />
                   <h5>Mongodb</h5>
                 </div>
                 <div className="item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Image" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="Image of github"
+                  />
                   <h5>github</h5>
                 </div>
-
-
-
               </Carousel>
             </div>
           </Col>
