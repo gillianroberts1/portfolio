@@ -6,7 +6,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-mark.svg";
 import navIcon3 from "../assets/img/resume-9864.svg";
 import logo from "../assets/img/gillianlogo.png";
-import cv from "../assets/img/CV.pdf"
+import cv from "../assets/img/CV.pdf";
 import hoverLogo from "../assets/img/gillianlogowave.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./NavBar.css";
@@ -81,20 +81,25 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/gillian-roberts-4293804a/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/gillian-roberts-4293804a/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={navIcon1} alt="LinkedIn" />
                 </a>
-                <a href="https://github.com/gillianroberts1" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/gillianroberts1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={navIcon2} alt="Github" />
                 </a>
-                <a href={cv}  target="_blank" rel="noreferrer">
+                <a href={cv} target="_blank" rel="noreferrer">
                   <img src={navIcon3} alt="cv" />
                 </a>
               </div>
-              <button
-                className="connect"
-                onClick={sendEmail}
-              >
+              <button className="connect" onClick={sendEmail}>
                 <span>Let'Connect</span>
               </button>
             </span>

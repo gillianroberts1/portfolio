@@ -19,8 +19,8 @@ nav.navbar a.navbar-brand {
 }
 
 .logo-container {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .wave {
@@ -45,7 +45,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,

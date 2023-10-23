@@ -7,7 +7,6 @@ import "./Hero.css";
 import { sendEmail } from "../helpers";
 import "animate.css";
 
-
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);

@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Recipes Website",
-      description: "Group Project- October 23" ,
+      description: "Group Project- October 23",
       stack: "React, MongoDB, Express, Node.js, 1st party API, Responsive ",
       imgUrl: projectImg1,
     },
@@ -25,7 +25,6 @@ const Projects = () => {
       stack: "Python, PostgreSQL, Flask",
       imgUrl: projectImg3,
     },
-    
   ];
 
   return (
@@ -34,7 +33,9 @@ const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>A selection of my projects completed during my CodeClan Course</p>
+            <p>
+              A selection of my projects completed during my CodeClan Course
+            </p>
             <Row>
               {projects.map((project, index) => {
                 return <ProjectCard key={index} {...project} />;

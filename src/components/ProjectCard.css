@@ -15,7 +15,7 @@
   width: 56%;
 }
 
-p{
+p {
   color: white;
 }
 
@@ -89,12 +89,11 @@ p{
 @media (max-width: 767px) {
   .col {
     background: rgb(149, 180, 181);
-    
   }
   .skill {
     padding: 0;
-  } 
-  h2{
+  }
+  h2 {
     padding-top: 20px;
   }
 }
