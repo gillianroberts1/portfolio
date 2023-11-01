@@ -20,6 +20,7 @@
   .skill h5 {
     font-size: 25px;
   }
+  
 }
 
 .skill p {
@@ -59,4 +60,10 @@
 .react-multi-carousel-track {
   display: flex;
   align-items: end;
+}
+
+
+
+.react-multiple-carousel__arrow {
+  z-index: 0  ;
 }
