@@ -12,7 +12,7 @@ const ProjectCard = ({ title, description, stack, imgUrl, viewApp }) => {
           <br></br>
           <span>{stack}</span>
           <br></br>
-          <a href="https://sgar.vercel.app/" target="_blank"
+          <a className="play-app" href="https://sgar.vercel.app/" target="_blank"
                   rel="noreferrer">{viewApp}</a>
         </div>
       </div>

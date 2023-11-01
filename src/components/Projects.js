@@ -12,7 +12,7 @@ const Projects = () => {
       description: "Group Project- October 23",
       stack: "React, MongoDB, Express, Node.js, 1st party API, Responsive ",
       imgUrl: projectImg1,
-      viewApp: "click here to view live app working",
+      viewApp: "PLAY APP",
 
     },
     {
