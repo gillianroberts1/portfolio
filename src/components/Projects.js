@@ -12,14 +12,17 @@ const Projects = () => {
       description: "Group Project- October 23",
       stack: "React, MongoDB, Express, Node.js, 1st party API, Responsive ",
       imgUrl: projectImg1,
+      link: "https://sgar.vercel.app/",
       viewApp: "PLAY APP",
 
     },
     {
       title: "BrewDog Online Shop",
-      description: "Solo project - September 23",
-      stack: "React, MongoDB, Express, Node.js, 3rd party API",
+      description: "Personal project - September 23",
+      stack: "React, MongoDB, Express, Node.js, 3rd party API, Responsive",
       imgUrl: projectImg2,
+      link: "https://brew-dog-deployed.vercel.app/",
+      viewApp: "PLAY APP",
     },
     {
       title: "Servivors Tennis Club Booking System",
