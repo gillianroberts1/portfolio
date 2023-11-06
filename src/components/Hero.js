@@ -59,10 +59,6 @@ export const Hero = () => {
     setIsJourneyExpanded(!isJourneyExpanded);
   };
 
-  // const toggleMoreExpanded = () => {
-  //   setMoreExpanded(!isMoreExpanded);
-  // };
-
   return (
     <section className="hero" id="home">
       <Container>

@@ -98,17 +98,13 @@ p {
   }
 }
 
-.play-app{
+.play-app {
   color: #009c97;
   font-weight: 700;
   font-size: 1.5em;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-
-
 }
-.play-app:hover{
+.play-app:hover {
   transform: scale(1.5);
-  
-
 }

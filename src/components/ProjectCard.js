@@ -12,8 +12,9 @@ const ProjectCard = ({ title, description, stack, imgUrl, link, viewApp }) => {
           <br></br>
           <span>{stack}</span>
           <br></br>
-          <a className="play-app" href={link} target="_blank"
-                  rel="noreferrer">{viewApp}</a>
+          <a className="play-app" href={link} target="_blank" rel="noreferrer">
+            {viewApp}
+          </a>
         </div>
       </div>
     </Col>

@@ -14,7 +14,6 @@ const Projects = () => {
       imgUrl: projectImg1,
       link: "https://sgar.vercel.app/",
       viewApp: "PLAY APP",
-
     },
     {
       title: "BrewDog Online Shop",
