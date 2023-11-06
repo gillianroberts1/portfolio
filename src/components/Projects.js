@@ -18,7 +18,7 @@ const Projects = () => {
     },
     {
       title: "BrewDog Online Shop",
-      description: "Personal project - September 23",
+      description: "Personal Project - September 23",
       stack: "React, MongoDB, Express, Node.js, 3rd party API, Responsive",
       imgUrl: projectImg2,
       link: "https://brew-dog-deployed.vercel.app/",
@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
       title: "Servivors Tennis Club Booking System",
-      description: "Solo project - August 23",
+      description: "Solo Project - August 23",
       stack: "Python, PostgreSQL, Flask",
       imgUrl: projectImg3,
     },

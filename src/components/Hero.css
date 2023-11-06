@@ -42,10 +42,12 @@ img.hero-img {
   outline: none;
   margin-right: 10px;
   color: #fff;
+  font-weight: 700;
 }
 
 .journey-title {
   margin: 0;
+  font-weight: 700;
 }
 
 .journey-box {
